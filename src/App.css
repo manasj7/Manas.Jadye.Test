@@ -1,38 +1,67 @@
-.App {
+.label {
+  height: 50px;
+  width: 100px;
+}
+
+.navbar {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  background-color: #d5f1f2;
+}
+
+.navbar-brand {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.badge {
+  padding: 1rem 1.5rem;
+  margin-left: 0.3rem;
+  outline: none;
+  border: none;
+  color: white;
+  letter-spacing: 2px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.col-md-3 {
+  padding: 0px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card {
+  width: 100%;
+  height: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card-body {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 0;
+  margin-bottom: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
+.card-text {
+  height: 50px;
+  margin-top: 0.5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.left-section {
+  width: 100%;
+  height: 100%;
+  font-size: 17px;
+  padding-left: 0.5rem;
+  overflow: hidden;
+}
+
+.right-section {
+  font-size: 30px;
+  padding-right: 0.5rem;
+  margin: auto;
+  font-weight: bold;
+}
+
+@media (min-width: 411px) {
+  .navbar-expand-lg {
+    flex-flow: row nowrap;
+    justify-content: flex-start;
   }
 }
