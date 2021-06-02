@@ -6,8 +6,8 @@ import jsonData from "../products.json";
 
 import ProductPage from "./ProductsPage";
 
-const Header = () => {
-  let [filteredProducts, setProducts] = useState(jsonData);
+function Header() {
+  const [filteredProducts, setProducts] = useState(jsonData);
   let filteredProductsArray = [];
 
   return (
@@ -47,6 +47,6 @@ const Header = () => {
       <ProductPage productsList={filteredProducts} />
     </Container>
   );
-};
+}
 
 export default Header;
