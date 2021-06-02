@@ -26,8 +26,6 @@ function Header() {
                 for (i = 0; i < item.size.length; i++) {
                   if (eventKey === item.size[i]) {
                     filteredProductsArray.push(item);
-                    // console.log(filteredProducts);
-                    //this.setProducts({ products: el });
                   }
                 }
 
