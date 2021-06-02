@@ -13,9 +13,9 @@ function ProductPage(productsList) {
   return (
     <Container>
       <Row>
-        {productsList.productsList.map((el) => {
+        {productsList.productsList.map((el, index) => {
           return (
-            <Col md={3} sm={1} lg={4}>
+            <Col md={3} sm={1} lg={4} key={index}>
               <Card>
                 <Card.Img variant="top" src={`${el.productImage}`} />
                 <div className="label">

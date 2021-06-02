@@ -28,8 +28,7 @@ function Header() {
                     filteredProductsArray.push(item);
                   }
                 }
-
-                setProducts(filteredProductsArray);
+                return setProducts(filteredProductsArray);
               });
             }}
           >
