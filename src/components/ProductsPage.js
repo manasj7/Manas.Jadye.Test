@@ -1,6 +1,5 @@
 import React from "react";
 
-// import products from "../products.json";
 import Card from "react-bootstrap/Card";
 import Badge from "react-bootstrap/Badge";
 import { Container } from "react-bootstrap";
